@@ -1,0 +1,77 @@
+* {
+    font-family: monospace;
+    background-color: black;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header {
+    position: relative;
+    top: 10px;
+    display:flex;
+    letter-spacing: 45px;
+    justify-content:center;
+}
+
+header .icones i{
+    color: white;
+    font-size: 27px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+header .icones i:hover{
+    color: #FFBF00;
+    font-size: 27px;
+}
+
+.titulo {
+    color: white;
+    max-width: 650px;
+    margin: 90px 100px;
+}
+
+.info p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+
+span {
+    color: #FFBF00;
+}
+
+.icons {
+    display: flex;
+    justify-content: center; 
+
+}
+
+.icons a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    font-size: 15px;
+}
+
+.icons a:not(:last-child){
+    margin-right: 20px;
+}
+
+.icons a:hover {
+    color: #FFBF00;
+    position: relative;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+
